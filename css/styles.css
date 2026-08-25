@@ -652,7 +652,6 @@ img {
   background: var(--color-bg-hover);
   border: 1px solid var(--color-border);
   padding: 30px;
-  max-width: 68ch;
 }
 
 .brief-box--plain {
