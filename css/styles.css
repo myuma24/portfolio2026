@@ -377,17 +377,6 @@ img {
   letter-spacing: -0.042em;
 }
 
-.heading-page {
-  margin: 0;
-  font-family: var(--font-display);
-  font-weight: 800;
-  font-size: clamp(40px, 5.6vw, 82px);
-  line-height: 0.96;
-  letter-spacing: -0.04em;
-  color: var(--color-ink);
-  text-wrap: balance;
-}
-
 .heading-section {
   margin: 0;
   font-family: var(--font-display);
