@@ -60,7 +60,8 @@
             </div>
             <div class="meta-item meta-item--wide">
               <div class="meta-label">Skills</div>
-              <div class="meta-value">Product design &middot; IA &middot; Design systems &middot; User research &middot; Prototyping</div>
+              <div class="meta-value">Product design &middot; IA &middot; Design systems &middot; User research &middot;
+                Prototyping</div>
             </div>
             <div class="meta-item meta-item--wide">
               <div class="meta-label">Team</div>
@@ -74,9 +75,7 @@
         </div>
 
         <div class="case-study-main">
-          <!-- PLACEHOLDER: hero image/gif, a clean shot or scroll-through of the finished My Dot / Cruise screens -->
-          <img src="images/davis-dot-thumbnail.png"
-            alt="DavisDot app: Cruise, My Dot, and Connect screens">
+          <img src="images/davis-dot-thumbnail.png" alt="DavisDot app: Cruise, My Dot, and Connect screens">
 
           <div class="outcome-box">
             <div class="eyebrow" style="margin-bottom: 24px;">Outcome</div>
@@ -104,9 +103,11 @@
               <span class="section-index">01</span>
               <h2 class="heading-section">DavisDot Started as a Broad Idea</h2>
             </div>
-            <p class="body-copy">A social app for UC Davis students. The team ran interviews with students and recent UC Davis alumni about how they
+            <p class="body-copy">A social app for UC Davis students. The team ran interviews with students and recent UC
+              Davis alumni about how they
               connected with people in Davis. We notived a pattern: people weren't short on content, they
-              were short on opportunities to make new connections. Interviewees described Instagram and TikTok as algorithm-driven and passive,
+              were short on opportunities to make new connections. Interviewees described Instagram and TikTok as
+              algorithm-driven and passive,
               and Discord as useful for niche communities but too anonymous to build any lasting connections.</p>
             <p class="body-copy" style="margin-bottom: 28px;">That research shaped the product's core idea: represent
               a person's interests as "Dots," and let those Dots double as doors into real communities, like a
@@ -122,35 +123,30 @@
               <span class="section-index">02</span>
               <h2 class="heading-section">Turning the Idea Into a System</h2>
             </div>
-            <p class="body-copy" style="margin-bottom: 32px;">"Interests as Dots" was a strong concept, but it wasn't yet
+            <p class="body-copy" style="margin-bottom: 32px;">"Interests as Dots" was a strong concept, but it wasn't
+              yet
               a product. I owned onboarding end to end: designing the welcome flow, a mascot-guided walkthrough,
               and the early concept for a short personality quiz that could recommend communities to a brand-new
               user instead of dropping them into an empty app. I also built out the profile system ("My Dot"),
               including the input flow for setting up general info like name, major, and pronouns.</p>
             <div style="display: flex; flex-direction: column; gap: 34px;">
               <div>
-                <!-- PLACEHOLDER: gif of the onboarding flow prototype (welcome screens + mascot walkthrough) -->
                 <div class="eyebrow-muted" style="margin-bottom: 12px;">Onboarding flow</div>
-                <img src="images/PLACEHOLDER_davisdot_onboarding.gif"
-                  alt="DavisDot onboarding flow with mascot-guided walkthrough" class="zoomable" data-gallery-item
-                  data-src="images/PLACEHOLDER_davisdot_onboarding.gif" data-label="Onboarding flow"
-                  title="Click to enlarge">
+                <div class="demo-frame">
+                  <img src="images/davisdot_onboarding.gif"
+                    alt="DavisDot onboarding flow with mascot-guided walkthrough" class="zoomable" data-gallery-item
+                    data-src="images/davisdot_onboarding.gif" data-label="Onboarding flow" title="Click to enlarge">
+                </div>
+
               </div>
               <div>
-                <!-- PLACEHOLDER: static image of early sketches / mascot concept art -->
-                <div class="eyebrow-muted" style="margin-bottom: 12px;">Mascot &amp; early concepting</div>
-                <img src="images/PLACEHOLDER_davisdot_mascot.png"
-                  alt="Early sketches of the onboarding mascot and welcome flow" class="zoomable" data-gallery-item
-                  data-src="images/PLACEHOLDER_davisdot_mascot.png" data-label="Mascot & early concepting"
-                  title="Click to enlarge">
-              </div>
-              <div>
-                <!-- PLACEHOLDER: gif or image of the My Dot profile prototype -->
                 <div class="eyebrow-muted" style="margin-bottom: 12px;">My Dot: profile system</div>
-                <img src="images/PLACEHOLDER_davisdot_mydot.gif"
-                  alt="My Dot profile screen showing interest dots and general info" class="zoomable"
-                  data-gallery-item data-src="images/PLACEHOLDER_davisdot_mydot.gif" data-label="My Dot: profile system"
-                  title="Click to enlarge">
+                <div class="demo-frame">
+                  <img src="images/davisdot_mydot.gif"
+                    alt="My Dot profile screen showing interest dots and general info" class="zoomable"
+                    data-gallery-item data-src="images/davisdot_mydot.gif" data-label="My Dot: profile system"
+                    title="Click to enlarge">
+                </div>
               </div>
             </div>
           </div>
@@ -162,33 +158,35 @@
             </div>
             <p class="body-copy">The app's information architecture split browsing from belonging: "Cruise" was
               built for casually exploring Interests and Communities with no membership required, while "Connect"
-              managed the communities and connections you'd actually joined. It made sense on paper.</p>
+              managed the communities and connections you'd actually joined.</p>
             <div class="brief-box" style="margin-top: 0; margin-bottom: 28px;">
               <div class="eyebrow" style="margin-bottom: 14px;">The catch</div>
               <p
                 style="margin: 0; font-family: var(--font-body); font-size: 17px; line-height: 1.68; color: var(--color-ink);">
-                User testing surfaced that Interests and Communities looked and behaved too similarly inside Cruise,
-                and that people couldn't tell at a glance which communities they'd already joined. "Cruise" was
-                reading as a place to connect, not a place to browse, blurring the exact distinction the IA was
-                built around.</p>
+                User testing surfaced that Interests and Communities looked and behaved too similarly inside Cruise.
+                Both used the same floating bubble layout, the same color treatment, and the same interaction
+                pattern, so people couldn't tell at a glance which communities they'd already joined, or why
+                Interests and Communities needed to be two separate tabs at all.</p>
             </div>
             <p class="body-copy" style="margin-bottom: 32px;">I worked through several structural alternatives with
               the team, from merging the two tabs, to separating them into fully distinct pages, to changing the
-              navigation entirely, before we converged on keeping Interests and Communities functionally
-              distinct but redesigning them visually so each tab's purpose was legible on sight, plus a clear joined
-              indicator so users always knew where they stood.</p>
+              navigation entirely, before we converged on a solution that kept the tabs functionally distinct but
+              gave them completely different visual languages. Interests stayed as the floating bubble field, since
+              that loose, exploratory feel fit browsing a topic with no commitment attached. Communities moved to a
+              searchable list of cards, each with a real photo, a member count, and a live "online now" count, so
+              the tab reads immediately as a directory of groups you belong to or could join.</p>
             <div style="display: flex; flex-direction: column; gap: 34px;">
               <div>
-                <!-- PLACEHOLDER: before/after comparison of the Cruise (Interests/Communities) redesign -->
                 <div class="eyebrow-muted" style="margin-bottom: 12px;">Cruise: before &amp; after redesign</div>
-                <img src="images/PLACEHOLDER_davisdot_cruise_iteration.png"
-                  alt="Before and after comparison of the Cruise page redesign distinguishing Interests from Communities"
-                  class="zoomable" data-gallery-item data-src="images/PLACEHOLDER_davisdot_cruise_iteration.png"
+                <img src="images/davisdot_cruise_iteration.png"
+                  alt="Before and after comparison of the Cruise page redesign: Communities moved from a bubble layout to a searchable card list with photos and member counts, while Interests kept the bubble field"
+                  class="zoomable" data-gallery-item data-src="images/davisdot_cruise_iteration.png"
                   data-label="Cruise: before & after redesign" title="Click to enlarge">
                 <p
                   style="margin: 12px 0 0; font-family: var(--font-mono); font-size: 11px; line-height: 1.7; color: var(--color-muted);">
-                  Interests and Communities kept the same underlying structure but gained distinct visual treatment
-                  and a joined-status indicator, resolving the confusion testing had surfaced.</p>
+                  Interests kept its bubble layout since it's meant to feel like open browsing. Communities became a
+                  searchable card list with a photo, member count, and online status per group, resolving the
+                  confusion testing had surfaced between the two tabs.</p>
               </div>
             </div>
           </div>
@@ -198,21 +196,48 @@
               <span class="section-index">04</span>
               <h2 class="heading-section">200+ Screens to a Soft Launch</h2>
             </div>
-            <p class="body-copy" style="margin-bottom: 32px;">By soft launch, the product had core flows working end
-              to end: account creation, profile setup, posting and browsing within interests, joining and
-              participating in communities, and direct messaging, all designed and prototyped in both light and
-              dark mode. We got the app in front of 20&ndash;25 test users, collected feedback, and had already
-              started iterating on it before my time on the project wrapped up. I made sure the
-              product was left well documented, with the Figma file, design rationale, and open questions organized
-              for a future team to pick up.</p>
-            <!-- PLACEHOLDER: gif scroll-through or click-through of the final prototype (Cruise, Connect, My Dot, settings) -->
-            <img src="images/PLACEHOLDER_davisdot_finalprototype.gif"
-              alt="DavisDot final prototype: click-through of Cruise, Connect, My Dot and settings" class="zoomable"
-              data-gallery-item data-src="images/PLACEHOLDER_davisdot_finalprototype.gif"
-              data-label="Final prototype: full flow" title="Click to enlarge">
+            <p class="body-copy" style="margin-bottom: 32px;">By soft launch, the product had core flows working end to
+              end: account creation, profile setup, posting and browsing within interests, joining and participating in
+              communities, and direct messaging, all designed and prototyped in both light and dark mode. We got the app
+              in front of 20–25 test users, collected feedback, and had already started iterating on it before my time
+              on the project wrapped up. I made sure the product was left well documented, with the Figma file, design
+              rationale, and open questions organized for a future team to pick up.
+
+              DavisDot final prototype: click-through of Cruise, Connect, My Dot and settings</p>
+            <!-- Prototype demo grid: swap in your real gif filenames below -->
+            <div class="prototype-grid">
+              <div class="prototype-grid-item">
+                <div class="eyebrow-muted">Creating a post</div>
+                <img src="images/davisdot_createpost.gif"
+                  alt="DavisDot prototype: creating a post under the Photography interest" class="zoomable"
+                  data-gallery-item data-src="images/davisdot_createpost.gif" data-label="Creating a post"
+                  title="Click to enlarge">
+              </div>
+              <div class="prototype-grid-item">
+                <div class="eyebrow-muted">Viewing stories</div>
+                <img src="images/davisdot_viewstories.gif"
+                  alt="DavisDot prototype: viewing stories under the Photography interest" class="zoomable"
+                  data-gallery-item data-src="images/davisdot_viewstories.gif" data-label="Viewing stories"
+                  title="Click to enlarge">
+              </div>
+              <div class="prototype-grid-item">
+                <div class="eyebrow-muted">Community page</div>
+                <img src="images/davisdot_communities.gif"
+                  alt="DavisDot prototype: Photography Club community page with about, channels, and events"
+                  class="zoomable" data-gallery-item data-src="images/davisdot_communities.gif"
+                  data-label="Community page" title="Click to enlarge">
+              </div>
+              <div class="prototype-grid-item">
+                <div class="eyebrow-muted">Connect</div>
+                <img src="images/davisdot_connect.gif" alt="DavisDot prototype: Connect page showing joined communities"
+                  class="zoomable" data-gallery-item data-src="images/davisdot_connect.gif" data-label="Connect"
+                  title="Click to enlarge">
+              </div>
+            </div>
             <p
               style="margin: 12px 0 0; font-family: var(--font-mono); font-size: 11px; line-height: 1.7; color: var(--color-muted);">
-              Final prototype at soft launch: Cruise, Connect, My Dot, and settings in light and dark mode.</p>
+              Core flows at soft launch: creating a post, viewing stories, browsing a community page, and managing
+              joined communities in Connect.</p>
           </div>
 
           <div class="carry-forward">
