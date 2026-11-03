@@ -1005,7 +1005,7 @@ img {
   font-size: 16.5px;
   line-height: 1.55;
   color: var(--color-body);
-  max-width: 56ch;
+  max-width: 80ch;
 }
 
 .work-row-skills {
@@ -1016,12 +1016,6 @@ img {
   color: var(--color-muted);
 }
 
-.work-row-year {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  color: var(--color-body);
-  white-space: nowrap;
-}
 
 /* Mobile vertical stack for Work rows */
 @media (max-width: 640px) {
